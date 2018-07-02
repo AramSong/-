@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.3.4'
 # 
 gem 'rest-client'
 gem 'nokogiri'
@@ -11,7 +11,7 @@ gem 'rails', '4.2.5'
 # gem 'sqlite3'
 #변경후
 gem 'sqlite3', :group => :development
-gem 'pg','~> 0.18', :group => :production
+gem 'pg','~> 0.21', :group => :production
 gem 'rails_12factor', :group => :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
